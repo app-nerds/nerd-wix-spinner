@@ -4,16 +4,43 @@ Nerd Wix Spinner is a web component that will display a shim and a loading spinn
 
 ## 🚀 Quick Start
 
-To begin ensure your Wix site has **Dev Mode** enabled. If you are unsure how to do this please see [https://support.wix.com/en/article/about-velo-by-wix](https://support.wix.com/en/article/about-velo-by-wix). Now follow these steps to configure this component to be used on any page in your site.
+To begin ensure your Wix site has **Dev Mode** enabled. If you are unsure how to do this please see [https://support.wix.com/en/article/about-velo-by-wix](https://support.wix.com/en/article/about-velo-by-wix). 
 
-1. Add a **Custom Element** to your page by clicking the *Plus Button* -> Embed Code -> Popular Embeds, and choose **Custom Element**
-2. Resize the element. It doesn't need to be large. Drag the custom element into your header so it is available on all pages.
-3. Open the developer/code panel (found at the bottom of the window). Find the properties panel and change the ID of the custom element to `spinner`.
-4. On the custom element, click the button **Choose Source**
-5. Choose *Velo File*. Then in the dropdown box below that you may have the option to create a new Velo file. Do this, and name the file `NerdWixSpinner.js`.
-6. In the **Tag Name** field enter `nerd-wix-spinner`.
-7. Copy the code from this folder and paste it into your new file in Wix: `dist/NerdWixSpinner.js`.
-8. Profit!
+![Turn on Velo Screenshot](./screenshots/turn-on-velo.png)
+
+Now follow these steps to configure this component to be used on any page in your site.
+
+### Add a Custom Element
+
+Click the *Plus Button* to add an element to the page.
+
+![Plus Button Screenshot](./screenshots/press-plus-button.png)
+
+Choose *Embed Code* -> *Popular Embeds* -> *Custom Element*.
+
+![Add Custom Element Screenshot](./screenshots/add-custom-element.png)
+
+You can resize the element to be smaller if you like. It does not have to be large as the shim and spinner are generated dynamically. Make sure you drag the custom element to the header so it is available on all pages.
+
+![Screenshot of custom element in header](./screenshots/custom-element-in-header.png)
+
+Now open the developer code panel found at the bottom of the window. Find the properties panel and change the ID of the custom element to `spinner`.
+
+![Rename custom element screenshot](./screenshots/rename-custom-element.png)
+
+Open the **Public & Backend** panel, and in the *Public* section add a new JS file named `NerdWixSpinner.js` under the folder named *custom-elements*. If you do not have a folder named *custom-element* create it.
+
+![Add code file screenshot](./screenshots/add-code-file.png)
+
+When you add this new file the code panel at the bottom of the window opens. Copy the contents from [./dist/NerdWixSpinner.js](./dist/NerdWixSpinner.js) onto your clipboard and paste them into your new JavaScript file in Wix.
+
+![Paste code screenshot](./screenshots/paste-code.png)
+
+Now that we have the code we need to point the custom element to this code. Go back to the page and click on the custom element, then click on **Choose Source**. Selecting *Velo File* will present a drop down. In this drop down select the file **NerdWixSpinner.js**. Scroll down a little and enter the tag name `nerd-wix-spinner`.
+
+![Element settings screenshot](./screenshots/element-settings.png)
+
+Congratulations! The Nerd Wix Spinner is configured!
 
 ## Usage
 
@@ -31,3 +58,4 @@ To hide the spinner:
 $w("#spinner").setAttribute("show", false);
 ```
 
+![Demo](./screenshots/demo.gif)
