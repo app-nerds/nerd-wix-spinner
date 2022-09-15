@@ -1,6 +1,6 @@
 # Nerd Wix Spinner
 
-Nerd Wix Spinner is a web component that will display a shim and a loading spinner graphic. This component is designed to work on Wix websites and within Wix's limitation, though it is not limited to just Wix usage. 
+Nerd Wix Spinner is a web component that will display a shim and a loading spinner graphic. This component is designed to work on Wix websites and within Wix's limitations, though it is not limited to just Wix usage. 
 
 ## 🚀 Quick Start
 
