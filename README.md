@@ -2,6 +2,8 @@
 
 Nerd Wix Spinner is a web component that will display a shim and a loading spinner graphic. This component is designed to work on Wix websites and within Wix's limitations, though it is not limited to just Wix usage. 
 
+Click [here](https://www.appnerds.net/spinner-demo) to view a demo of Nerd Wix Spinner in action!
+
 ## 🚀 Quick Start
 
 To begin ensure your Wix site has **Dev Mode** enabled. If you are unsure how to do this please see [https://support.wix.com/en/article/about-velo-by-wix](https://support.wix.com/en/article/about-velo-by-wix). 
@@ -59,3 +61,4 @@ $w("#spinner").setAttribute("show", false);
 ```
 
 ![Demo](./screenshots/demo.gif)
+
