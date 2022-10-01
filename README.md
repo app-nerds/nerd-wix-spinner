@@ -51,13 +51,13 @@ The Nerd Wix Spinner component has one primary operations: **show**.
 To show the spinner, execute the following code. This code assumes you've named the custom element **spinner**.
 
 ```js
-$w("#spinner").setAttribute("show", true);
+$w("#spinner").setAttribute("show", "true");
 ```
 
 To hide the spinner:
 
 ```js
-$w("#spinner").setAttribute("show", false);
+$w("#spinner").setAttribute("show", "false");
 ```
 
 ![Demo](./screenshots/demo.gif)
